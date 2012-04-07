@@ -211,7 +211,7 @@ public class GsensorAngleActivity extends Activity {
         v = findView(this.findViewById(R.id.subwindow_container), originPoint);
         id = v.getId();
         
-        Log.d("myTag","id for test1 ============== " + id);
+        Log.d("myTag","id for test2 ============== " + id);
         switch (id) {
         case R.id.button_one:
             playToneDTMF();
